@@ -6,7 +6,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 
 <servlet>
   <servlet-name>studentServlet</servlet-name>
-  <servlet-class>student.servlets.studentServlet</servlet-class>
+  <servlet-class>se.yrgo.student.servlets.studentServlet</servlet-class>
 </servlet>
 <servlet>
   <servlet-name>courses</servlet-name>
@@ -14,7 +14,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 </servlet>
 <servlet-mapping>
    <servlet-name>studentServlet</servlet-name>
-   <url-pattern>/studentServlet</url-pattern>
+   <url-pattern>/students</url-pattern>
 </servlet-mapping>
 <servlet-mapping>
   <servlet-name>courses</servlet-name>

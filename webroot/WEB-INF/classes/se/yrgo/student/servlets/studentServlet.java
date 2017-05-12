@@ -1,4 +1,4 @@
-package se.yrgo.student.servlet;
+package se.yrgo.student.servlets;
 
 import se.yrgo.student.storage.StudentStorageFactory;
 import se.yrgo.student.storage.StudentStorage;

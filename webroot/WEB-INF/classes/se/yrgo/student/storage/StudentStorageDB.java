@@ -12,7 +12,7 @@ import se.yrgo.student.db.DBUtil;
 public class StudentStorageDB implements StudentStorage{
     private DBUtil db;
     private static final String SELECT_ALL_STUDENTS = "SELECT id, name FROM students";
-    private static final String SELECT_COURSE = "SELECT registrations.course_id AS id, course_code AS code FROM registrations JOIN students ON students.id = registrations.student_id JOIN courses ON courses.course_id = registrations.course_id WHERE registrations.student_id =";
+    private static final String SELECT_COURSE = "SELECT registrations.course_id AS id, course_code AS code FROM registrations JOIN students ON students.id = registrations.student_id JOIN courses ON courses.id = registrations.course_id WHERE registrations.student_id =";
 
     public StudentStorageDB(){
         db = DBUtil.getInstance();
