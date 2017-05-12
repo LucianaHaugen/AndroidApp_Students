@@ -1,0 +1,2 @@
+javac -cp .:se/yrgo/student/resources/javax.json.jar se/yrgo/student/*/*.java && java -cp .:se/yrgo/student/resources/javax.json.jar:se/yrgo/student/resources/sqlite-jdbc-3.8.11.2.jar -DformatsXML=formats.xml se.yrgo.student.main.Main json
+javac -cp .:se/yrgo/student/resources/javax.json.jar se/yrgo/student/*/*.java && java -cp .:se/yrgo/student/resources/javax.json.jar:se/yrgo/student/resources/sqlite-jdbc-3.8.11.2.jar -DformatsXML=formats.xml se.yrgo.student.main.Main xml

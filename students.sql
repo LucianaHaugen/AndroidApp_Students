@@ -1,0 +1,14 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE students(id integer primary key not null, name text not null);
+INSERT INTO "students" VALUES(1,'Luciana Haugen');
+INSERT INTO "students" VALUES(2,'Jimmy Cannon');
+INSERT INTO "students" VALUES(3,'Niklas');
+INSERT INTO "students" VALUES(4,'Daniel Jonsson');
+INSERT INTO "students" VALUES(5,'Erik Gabrielsson');
+INSERT INTO "students" VALUES(6,'Oliver');
+INSERT INTO "students" VALUES(7,'Giogio Di Feola');
+INSERT INTO "students" VALUES(8,'John');
+INSERT INTO "students" VALUES(9,'Poja');
+INSERT INTO "students" VALUES(10,'Parviz');
+COMMIT;
